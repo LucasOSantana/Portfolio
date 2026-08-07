@@ -15,7 +15,7 @@ export const experiences: Experience[] = [
     role: "Full-Stack Software Engineer",
     company: "Qyon Technologies",
     companyUrl: "https://qyon.com/br/",
-    period: "July 2025 - Current",
+    period: "July 2025 - July 2026",
     description: "Designing and deploying high-performance APIs, containerized services on Amazon ECS, and event-driven architectures. Focusing on engineering resilient systems that optimize corporate data workflows.",
     highlights: "Designed and implemented a modular, event-driven microservices ecosystem utilizing RabbitMQ to handle complex enterprise tax data processing. Created a modular parametrization tool for tax data processing, enabling dynamic configuration of business rules and workflows.",
     current: true

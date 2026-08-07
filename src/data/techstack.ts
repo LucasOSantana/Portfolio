@@ -22,6 +22,6 @@ export const techStackData: TechCategory[] = [
   },
   {
     title: "Databases",
-    items: ["SQL Server", "MySQL", "PostgreSQL", "Oracle"]
+    items: ["SQL Server", "MySQL", "PostgreSQL", "Oracle", "Redis"]
   }
 ];

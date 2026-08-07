@@ -13,6 +13,16 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: "proj-6",
+    title: "Ledger Payment Engine",
+    description: "A fast, reactive, and audit-safe double-entry ledger engine for financial transactions. Built with Spring WebFlux, R2DBC, PostgreSQL, and Redis to process consistent, idempotent transactions under heavy loads.",
+    githubUrl: "https://github.com/LucasOSantana/reactive-ledger-core",
+    technologies: ["Java", "Spring Boot", "Spring WebFlux", "R2DBC", "PostgreSQL", "Redis"],
+    featured: true,
+    platforms: "Backend · Financial",
+    isNew: true
+  },
+  {
     id: "proj-1",
     title: "Multi-engine container CLI",
     description: "A cross-platform Terminal User Interface (TUI) for monitoring and managing multiple container engines (Docker and Podman) in real time. Built in Go using the Bubble Tea and Lip Gloss libraries.",
@@ -21,7 +31,7 @@ export const projects: Project[] = [
     technologies: ["Go", "Docker", "Podman", "Bubble Tea", "Lip Gloss"],
     featured: true,
     platforms: "CLI · TUI",
-    isNew: true
+    isNew: false
   },
   {
     id: "proj-2",

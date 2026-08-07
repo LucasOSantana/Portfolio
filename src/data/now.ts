@@ -15,7 +15,7 @@ export interface NowData {
 }
 
 export const nowData: NowData = {
-  lastUpdated: "July 2026",
+  lastUpdated: "August 2026",
   location: "São Paulo, Brazil",
   currentFoci: [
     {
