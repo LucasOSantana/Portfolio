@@ -13,6 +13,28 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: "proj-7",
+    title: "Orderly",
+    description: "A full stack order platform with asynchronous processing. REST API built with Spring Boot and Java 21, PostgreSQL with Flyway migrations, RabbitMQ with a transactional outbox, retries and dead-letter queues, and an Angular frontend that tracks order status automatically. Everything runs with a single docker compose.",
+    githubUrl: "https://github.com/LucasOSantana/order-platform",
+    image: "/images/projects/Orderly.png",
+    technologies: ["Java", "Spring Boot", "PostgreSQL", "RabbitMQ", "Angular", "Docker"],
+    featured: true,
+    platforms: "Full Stack · Event-Driven",
+    isNew: true
+  },
+  {
+    id: "proj-8",
+    title: "Easy Paper",
+    description: "A lightweight, local-first wallpaper selector for Windows inspired by Hyprland/Quickshell setups. Presents wallpapers in a 3D carousel summoned by a global hotkey, with per-monitor support and cached thumbnails. Built with Tauri, Rust, and React.",
+    githubUrl: "https://github.com/LucasOSantana/easy-paper",
+    image: "/images/projects/EasyPaper.png",
+    technologies: ["Tauri", "Rust", "React", "TypeScript"],
+    featured: true,
+    platforms: "Desktop · Tauri",
+    isNew: true
+  },
+  {
     id: "proj-6",
     title: "Ledger Payment Engine",
     description: "A fast, reactive, and audit-safe double-entry ledger engine for financial transactions. Built with Spring WebFlux, R2DBC, PostgreSQL, and Redis to process consistent, idempotent transactions under heavy loads.",
@@ -20,7 +42,7 @@ export const projects: Project[] = [
     technologies: ["Java", "Spring Boot", "Spring WebFlux", "R2DBC", "PostgreSQL", "Redis"],
     featured: true,
     platforms: "Backend · Financial",
-    isNew: true
+    isNew: false
   },
   {
     id: "proj-1",
